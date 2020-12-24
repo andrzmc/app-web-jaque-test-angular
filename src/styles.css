@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
+@import url('./styles/general.css');
+@import url('./styles/icons.css');
+@import url('./styles/cards.css');
+@import url('./styles/button.css');
+@import url('./styles/switch.css');
+@import url('./styles/select.css');
+@import url('./styles/datatable.css');
+@import '~@swimlane/ngx-datatable/index.css';
+@import '~@swimlane/ngx-datatable/assets/icons.css';
+

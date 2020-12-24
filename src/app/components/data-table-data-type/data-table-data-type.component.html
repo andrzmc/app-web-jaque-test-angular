@@ -1,0 +1,6 @@
+<span *ngIf="type === 'text'">{{ result }}</span>
+<span *ngIf="type === 'role'">{{ result }}</span>
+<img *ngIf="type === 'img'" class="app-datatable-img" [src]="result" alt="{{ result }}">
+<div *ngIf="type === 'boolean'" class="app-switch-box">
+    <input type="checkbox" class="app-switch" [checked]="result" />
+</div>

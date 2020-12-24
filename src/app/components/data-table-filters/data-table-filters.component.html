@@ -1,0 +1,14 @@
+<section class="app-datatable-filters">
+    <div class="filters-search">
+        <input type="text" placeholder="Búsqueda">
+    </div>
+    <div class="filters-select">
+        <div class="select" *ngFor="let f of filters">
+            <ngx-select-dropdown 
+                (change)="searchChange($event)" 
+                [config]="config" 
+                [options]="f"
+            ></ngx-select-dropdown>
+        </div>
+    </div>
+</section>

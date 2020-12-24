@@ -1,0 +1,75 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    background-color: #F5F5F5;
+    color: #262626;
+    margin: 0;
+    font-family: 'Nunito' !important;
+    font-weight: 300;
+}
+
+a {
+    cursor: pointer;
+}
+
+*, *:focus, *:hover{
+    outline:none;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #444; 
+}
+
+h1 {
+    font-size: 1.7em;
+    line-height: 2.4em;
+}
+
+h2 {
+    font-size: 1.6em;
+    line-height: 2.2em;
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+h4 {
+    font-size: 1.4em;
+    line-height: 1.8em;
+}
+
+h5 {
+    font-size: 1.35em;
+    line-height: 1.7em;
+}
+
+h6 {
+    font-size: 1.3em;
+    line-height: 1.6em;
+}
+
+p {
+    font-size: 1.15em;
+    line-height: 1.3em;
+}

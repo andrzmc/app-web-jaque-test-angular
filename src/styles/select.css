@@ -1,0 +1,10 @@
+.ngx-dropdown-button {
+    padding: 0.7em 1em !important;
+    background-color: #F9F9F9 !important;
+    border: 1px solid #ccc !important;
+    color: #5F5F5F !important;
+}
+
+.nsdicon-angle-down {
+    color: #FA6A00;
+}

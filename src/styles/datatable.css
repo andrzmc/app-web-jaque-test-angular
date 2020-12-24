@@ -1,0 +1,58 @@
+.ngx-datatable.app-datatable {
+    box-shadow: none;
+    font-size: 1em; 
+}
+
+.ngx-datatable.app-datatable .app-datatable-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.ngx-datatable.app-datatable .page-count {
+    display: none;
+}
+
+.ngx-datatable.app-datatable .datatable-footer {
+    background: transparent;
+}
+
+.ngx-datatable.app-datatable .datatable-footer .datatable-pager {
+    margin: 0 40%;
+    vertical-align: top; 
+    text-align: center;
+}
+
+.ngx-datatable.app-datatable .datatable-footer .datatable-pager ul li {
+    margin: 10px 0px; 
+}
+
+.ngx-datatable.app-datatable .datatable-footer .datatable-pager ul li:not(.disabled).active a, .ngx-datatable.app-datatable .datatable-footer .datatable-pager ul li:not(.disabled):hover a {
+    background-color: #7087B1;
+    font-weight: bold; 
+    border-radius: 50%;
+    color: #fff;
+}
+
+.ngx-datatable.app-datatable .datatable-footer .datatable-pager a {
+    height: 22px;
+    min-width: 24px;
+    line-height: 22px;
+    padding: 0;
+    border-radius: 3px;
+    margin: 0 3px;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    vertical-align: bottom;
+    color: #A3A3A3; 
+}
+
+.ngx-datatable.app-datatable .datatable-footer .datatable-pager .datatable-icon-left,
+.ngx-datatable.app-datatable .datatable-footer .datatable-pager .datatable-icon-skip,
+.ngx-datatable.app-datatable .datatable-footer .datatable-pager .datatable-icon-right,
+.ngx-datatable.app-datatable .datatable-footer .datatable-pager .datatable-icon-prev {
+    font-size: 18px;
+    line-height: 27px;
+    padding: 0 3px; 
+}

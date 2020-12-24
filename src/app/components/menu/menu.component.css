@@ -1,0 +1,49 @@
+#app-web-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px #ccc solid;
+    width: 100%;
+    height: 70px;
+    color: #BAB9BF;
+    background-color: #fff;
+    z-index: 1100;
+}
+
+#app-web-menu a {
+    font-size: 1.7em;
+    color: #4f4f4f;
+}
+
+#app-web-menu .logo {
+    width: 150px;
+    height: 70px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#app-web-menu .logo a img {
+    max-height: 150px;
+    max-height: 65px;
+}
+
+
+#app-web-menu .activities {
+    position: absolute;
+    right: 0;
+    top:0;
+    width: 350px;
+    height: 70px;
+    padding: 0 1em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#app-web-menu .activity{
+    width: 23%;
+    margin: 0 1%;
+    text-align: center;
+}

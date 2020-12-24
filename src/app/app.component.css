@@ -1,0 +1,8 @@
+#app-web-dashboard-body {
+    position: fixed;
+    overflow-y: auto;
+    bottom: 0;
+    right: 0;
+    top: 70px;
+    left: 70px;
+}

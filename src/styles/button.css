@@ -1,0 +1,16 @@
+.app-btn {
+    background-color: transparent;
+    border: none;
+    border-radius: 3px;
+    padding: 0.7em 1em;
+}
+
+.app-btn-outline {
+    color: #FA6A00;
+    border: #FA6A00 2px solid;
+}
+
+.app-btn-solid {
+    background-color: #FA6A00;
+    color: #fff;
+}

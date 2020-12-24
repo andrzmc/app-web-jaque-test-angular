@@ -1,0 +1,59 @@
+#app-web-side-nav {
+    background-color: #fff;
+    border-right: 1px #ccc solid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 70px;
+    z-index: 1000;
+    padding: 70px 0 0 0;
+}
+
+#app-web-side-nav .navigation{
+    max-width: 100%;
+}
+
+#app-web-side-nav .navigation ul{
+    list-style: none;
+    color: #fbfbfb;
+    height: 80vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#app-web-side-nav .navigation ul li {
+    text-align: left;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 30%;
+    border-bottom: 1px #ccc solid;
+}
+
+#app-web-side-nav .navigation ul li .app-icon {
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    
+}
+
+#app-web-side-nav .navigation ul li:hover {
+    border-left: 2px solid #FA6A00;
+}
+
+#app-web-side-nav .navigation ul li:hover .app-icon {
+    filter: invert(48%) sepia(50%) saturate(3869%) hue-rotate(3deg) brightness(101%) contrast(101%);
+}
+
+#app-web-side-nav .navigation a {
+    font-size: 1.5em;
+    color: #fbfbfb
+}
+
+#app-web-side-nav .navigation a:hover {
+    color: #fbfbfb !important;
+}

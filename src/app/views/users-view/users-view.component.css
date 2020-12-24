@@ -1,0 +1,32 @@
+.app-users {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.app-users-title {
+    width: 33%;
+    margin: 0.5em 1%;
+}
+
+.app-users-title h4 {
+    color: #131B31;
+}
+
+.app-users-title p {
+    color: #969696;
+    font-weight: 400;
+}
+
+.app-users-actions {
+    width: 63%;
+    margin: 0.5em 1%;
+    text-align: right;
+}
+
+.app-users-actions button {
+    margin-right: 1em;
+    font-size: 1em;
+}
