@@ -8,6 +8,7 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 export class DataTableFiltersComponent implements OnInit {
 
   @Output() emiter = new EventEmitter<any>();
+  @Output() search = new EventEmitter<any>();
 
   filters = [
     [
@@ -18,21 +19,25 @@ export class DataTableFiltersComponent implements OnInit {
     ],
     [
       { name: 'Ordenar por Nombre', value: [{ prop: 'name', dir: 'asc' }], count: false },
-      { name: 'Ordenar por Correo', value: [{ prop: 'email', dir: 'asc' }], count: false }
+      { name: 'Ordenar por Correo', value: [{ prop: 'email', dir: 'asc' }], count: false },
+      { name: 'Ordenar por Apellido Paterno', value: [{ prop: 'fathersLastName', dir: 'asc' }], count: false },
+      { name: 'Ordenar por Apellido Materno', value: [{ prop: 'mothersLastName', dir: 'asc' }], count: false }
     ]
   ];
 
-  singleSelect: any = [];
-
-  config = { displayKey: "name" };
+  config = { displayKey: "name", placeholder: 'Seleccionar' };
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  searchChange($event) {
+  selectChange($event) {
     this.emiter.emit($event.value);
+  }
+
+  searchChange(event) {
+    this.search.emit(event);
   }
 
 }

@@ -13,6 +13,7 @@ export class UsersViewComponent implements OnInit {
 
   limit: number;
   sorts: any;
+  search: string;
 
   columns =  [
     {name: 'Foto', prop: 'picture', type: 'img'}, 
@@ -35,6 +36,10 @@ export class UsersViewComponent implements OnInit {
   catcher($event): void {
     if($event.count) this.limit = $event.value;
     if(!$event.count) this.sorts = $event.value;
+  }
+
+  searcher($event): void {
+    this.search = $event;
   }
 
 }

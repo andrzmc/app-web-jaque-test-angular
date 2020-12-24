@@ -14,7 +14,7 @@
         </div>
     </div>
     <div class="app-card app-card-max">
-        <app-data-table-filters (emiter)="catcher($event)"></app-data-table-filters>
-        <app-data-table [rows]="users$ | async" [columns]="columns" [limits]="limit" [sorts]="sorts"></app-data-table>
+        <app-data-table-filters (emiter)="catcher($event)" (search)="searcher($event)"></app-data-table-filters>
+        <app-data-table [rows]="users$ | async" [columns]="columns" [limits]="limit" [sorts]="sorts" [search]="search"></app-data-table>
     </div>
 </div>

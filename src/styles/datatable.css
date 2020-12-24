@@ -1,6 +1,7 @@
 .ngx-datatable.app-datatable {
     box-shadow: none;
     font-size: 1em; 
+    max-width: 100% !important;
 }
 
 .ngx-datatable.app-datatable .app-datatable-img {
@@ -15,10 +16,10 @@
 
 .ngx-datatable.app-datatable .datatable-footer {
     background: transparent;
+    max-width: 100% !important;
 }
 
 .ngx-datatable.app-datatable .datatable-footer .datatable-pager {
-    margin: 0 40%;
     vertical-align: top; 
     text-align: center;
 }
@@ -55,4 +56,17 @@
     font-size: 18px;
     line-height: 27px;
     padding: 0 3px; 
+}
+
+.ngx-datatable .datatable-header .datatable-header-cell.sortable .datatable-header-cell-wrapper {
+    cursor: default !important;
+}
+
+.ngx-datatable .datatable-header .datatable-header-cell .sort-btn {
+    display: none !important;
+}
+
+
+@media only screen and (max-width: 1366px) {
+
 }

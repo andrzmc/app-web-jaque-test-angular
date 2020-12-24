@@ -4,3 +4,7 @@
 <div *ngIf="type === 'boolean'" class="app-switch-box">
     <input type="checkbox" class="app-switch" [checked]="result" />
 </div>
+<div *ngIf="type === 'action'" class="app-datatable-actions">
+    <button class="app-icon app-icon-edit"></button>
+    <button class="app-icon app-icon-trash"></button>
+</div>

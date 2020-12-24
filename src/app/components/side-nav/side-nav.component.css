@@ -35,10 +35,7 @@
 }
 
 #app-web-side-nav .navigation ul li .app-icon {
-    width: 70px;
-    height: 70px;
-    background-size: cover;
-    
+    filter: invert(71%) sepia(5%) saturate(0%) hue-rotate(55deg) brightness(110%) contrast(96%);
 }
 
 #app-web-side-nav .navigation ul li:hover {
